@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@author "RodrigoOlv";
+
+/*Busca*/
+#button {
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	border: none;
+	/* tamanho da imagem */
+	width: 35px;
+	height: 35px;
+	/* imagem replacement */
+	text-indent: -9999px;
+	border-top-left-radius:5px;
+	border-top-right-radius: 5px;
+}
+
+#main {
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#first {
+  margin-bottom: 50px;
+}
+
+#main div #one, #main #first, #main #two, #main #three {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+#one, #two, #three{
+  margin: 5px 0;
+}
+
+#one button, #two button, #three button {
+  position: absolute;
+  bottom: 15;
+  right: 15;
+	margin-top: 15px;
+}
+
+#one p, #two p, #three p, .indent {
+  text-indent: 25px;
+}

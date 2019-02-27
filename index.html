@@ -1,0 +1,187 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Dungeons & Dragons</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="RodrigoOlv">
+	<meta name="description" content="Site do projeto final de Internet II, utilizando Bootstrap para elaborar páginas responsivas">
+	<meta name="keywords" content="D&D DnD RPG Dungeons & Dragons HTML CSS Bootstrap JavaScript Responsividade">
+	<link rel="shortcut icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!-- Cabeçalho -->
+	<header class="container">
+		<div class="row">
+			<!-- Logo -->
+	    <div class="col-lg-3">
+	        <h1><img src="img/logo.png" alt="D&D" class="mx-auto img-fluid"></h1>
+	    </div>
+
+    <!-- Navegação -->
+  		<div class="col-md-9 pt-5">
+	    		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	        	<!-- Botão para responsividade -->
+	        	<a class="navbar-brand" href="#">Menu</a>
+	        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	          		<span class="navbar-toggler-icon"></span>
+	        	</button>
+
+	        	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	          		<ul class="navbar-nav mr-auto">
+	            		<li class="nav-item active">
+	              			<a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
+	            		</li>
+	            		<li class="nav-item">
+	              			<a class="nav-link" href="#">Classes</a>
+	            		</li>
+	            		<li class="nav-item">
+	              			<a class="nav-link" href="#">Mapas</a>
+	            		</li>
+	            		<li class="nav-item">
+	              			<a class="nav-link" href="#">Monstros</a>
+	            		</li>
+	            		<li class="nav-item">
+	              			<a class="nav-link" href="#">Contato</a>
+	            		</li>
+	          		</ul>
+	          		<form class="form-inline my-2 my-lg-0 row">
+	            		<input class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Search">
+	            		<button type="button" id="button" class="btn btn-light ml-2" aria-label="Left Align">
+	              			<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+	            		</button>
+	          		</form>
+	        	</div>
+				</nav>
+    	</div>
+		</div>
+	</header>
+
+  <!-- Main -->
+  <div class="jumbotron jumbotron-fluid text-light"  id="main" >
+    <div id="first" class="container">
+      <h2 class="text-center">DUNGEONS & DRAGONS</h2>
+      <p class="indent">
+        Desde 1974, Dungeons & Dragons tem influenciado inúmeros escritores, diretores e designers de jogos,
+        aproveitando a necessidade humana inata de se reunir com seus amigos e contar uma história emocionante juntos.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="one" class="col-lg-4">
+          <figure>
+              <h3 class="text-center">Anões</h3>
+              <img src="img/dwarf.png" alt="Anão" class="float-left img-fluid mx-1 my-1">
+              <p>
+                Audazes e resistentes, os anões são
+                conhecidos como hábeis guerreiros,
+                mineradores e trabalhadores em pedra e
+                metal. Embora tenham menos de 1,50 metro
+                de altura, os anões são tão largos e
+                compactos que podem pesar tanto quanto
+                um humano 60 centímetros mais alto. Sua
+                coragem e resistência compete facilmente
+                com qualquer povo mais alto. A pele dos
+                anões varia do marrom escuro a um matiz
+                mais pálido, tingido de vermelho, mas os tons mais
+                comuns são o castanho claro ou bronzeado, como certos
+                tons terrosos. O cabelo é longo, mas de estilo simples,
+                geralmente negro, cinzento ou castanho, embora anões
+                mais pálidos frequentemente possuem cabelos ruivos.
+                Anões machos valorizam altamente suas barbas e
+                preparam-nas com cuidado.
+              </p>
+              <button type="button" name="button" class="btn btn-outline-danger float-right">Leia mais</button>
+          </figure>
+        </div>
+        <div id="two" class="col-lg-4">
+          <figure>
+            <h3>Mundos de Aventura</h3>
+              <img src="img/map.jpg" alt="Mapa" class="float-left img-fluid mx-1 my-1">
+              <p>
+                Os muitos mundos do jogo DUNGEONS & DRAGONS são
+                lugares de magia e monstros, de bravos combatentes e
+                aventuras espetaculares. Eles começam com a base na
+                fantasia medieval e depois é só adicionar criaturas,
+                localidades e magia para fazê-los únicos.
+              </p>
+              <p>
+                Os mundos do jogo DUNGEONS & DRAGONS existem em
+                um cosmos chamado multiverso, conectados uns aos
+                outros por caminhos estranhos e misteriosos, e também a
+                outros planos de existência, como o Plano Elemental do
+                Fogo e as Camadas Infinitas do Abismo. Nesse multiverso
+                existe uma variedade infinita de mundos. Muitos deles
+                foram publicados como cenários oficiais para jogos de
+                D&D. As lendas dos cenários os Reinos Esquecidos,
+                Dragonlance, Greyhawk, Dark Sun, Mystara e Eberron
+                estão entrelaçadas na estrutura do multiverso. Ao lado
+                desses mundos estão outras centenas de milhares, criados
+                por gerações de jogadores de D&D em seus próprios jogos.
+                E com toda a riqueza do multiverso, você pode criar o seu
+                próprio mundo.
+              </p>
+              <button type="button" name="button" class="btn btn-outline-danger float-right">Leia mais</button>
+          </figure>
+        </div>
+        <div id="three" class="col-lg-4">
+          <figure>
+              <h3>Bestiário</h3>
+              <img src="img/chimera.png" alt="Quimera" class="img-fluid float-left mx-1 my-1">
+              <p>
+                Algumas das criaturas que habitam os mundos de
+                D&D possuem suas origens enraizadas na mitologia e
+                literatura fantástica do mundo real. Outras criaturas são
+                originais de D&D. Os monstros neste livro foram
+                coletados de todas as edições anteriores do jogo. Aqui você
+                encontrará bichos clássicos como o observador e a besta
+                deslocadora assim como criaturas mais recentes como o
+                chuul e ramo infectado. Bestas familiares se misturam
+                com bestas estranhas, terríveis e grotescas. Na coletânea
+                de monstros do passado, nós nos esforçamos para refletir
+                a natureza multifacetada do jogo, com verrugas e tudo. Os
+                monstros de D&D vem em todos os formatos e tamanhos,
+                com histórias que não apenas nos arrepiam mas também
+                nos fazem rir.
+              </p>
+              <p>
+                Se você for um Mestre experiente, alguns monstros
+                descritos adiante podem surpreender você, já que nós
+                consultamos os Manuais dos Monstros de outrora e
+                inserimos factoides há muito esquecidos. Nós também
+                adicionamos alguns fatos novos. Naturalmente, você pode
+                fazer com estes monstros o que quiser. Nada do que
+                dizemos aqui tem a intenção de reprimir sua criatividade.
+                Se os minotauros no seu mundo são construtores de
+                barcos e piratas, quem somos nós para questionar? É o
+                seu mundo, no fim das contas.
+              </p>
+              <button type="button" name="button" class="btn btn-outline-danger float-right">Leia mais</button>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Main -->
+
+  <!-- Rodapé -->
+  <footer class="container small">
+  	<!-- <div class="row"> -->
+  		<div class="float-left">
+				<span>&copy</span>Copyright: Wizards of the Coast
+	    </div>
+	    <div class="float-right text-right">
+	      <div>Desenvolvedor <a href="https://www.github.com/rodrigoolv" class="text-dark">RodrigoOlv</a></div>
+	    </div>
+  	<!-- </div> -->
+  </footer>
+  <!-- Fim do rodapé -->
+
+</body>
+</html>
